@@ -10,4 +10,9 @@
 
 @interface CCViewController : UIViewController
 
+
+@property (strong,nonatomic) UILabel *myLabel;
+@property (strong, nonatomic) UITextField *myTextField;
+
+
 @end
